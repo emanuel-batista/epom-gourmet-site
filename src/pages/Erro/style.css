@@ -1,0 +1,14 @@
+.erro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 90%;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+    height: auto;
+    font-size: 40px;
+}

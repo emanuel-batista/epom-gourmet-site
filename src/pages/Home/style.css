@@ -1,0 +1,38 @@
+.reserva {
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reserva .img {
+    height: auto;
+}
+
+.reserva .img img {
+    object-fit: cover;
+    width: 456px;
+    height: 532.8px;
+    -webkit-user-drag: none;
+
+}
+
+.reserva .botao-reservar {
+    height: 200px;
+    width: 400px;
+    background-image: url(mesinha.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserva .botao-reservar h2 {
+    height: auto;
+    position: absolute;
+    top: 51%;
+    right: 22.3%;
+    font-size: 30px;
+    font-weight: bold !important;
+}

@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-between;
+    /*  backdrop-filter: blur(50px) */
+}
+
+header h1 {
+    max-width: 50%;
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+}
+
+h1 a {
+    font-family: "Meow Script" !important;
+    color: #B7A835 !important;
+    font-size: 48px;
+    height: fit-content;
+}
+
+
+
+.links {
+    width: 50%;
+    display: contents;
+}
+
+.links ul {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-direction: row;
+    height: 100%;
+    max-height: 100%;
+}
+
+.links li {
+    height: fit-content;
+}
+
+.links li a {
+    font-size: 16px;
+    white-space: nowrap;
+    transition: 300ms ease-in !important;
+}
+
+.links li a:hover {
+    text-decoration: underline 0.15em #B7A835 !important;
+}
+
+.dropdown{
+    display: none;
+}
